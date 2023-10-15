@@ -8,10 +8,6 @@ $(document).ready(function() {
             name: 'STREAM "NEVERLAND" HERE',
             link: 'https://songwhip.com/vlx/neverland'
         },
-		{
-            name: 'IW4 All or Nothing (Open Source)',
-            link: 'https://github.com/EMlLlYA/IW4-All-or-Nothing-Mod'
-        },
     ];
 
     for(var i in links) {
