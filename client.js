@@ -1,22 +1,14 @@
 $(document).ready(function() {
     var links = [
 		{
-            name: 'Infinity Engine - QoS',
-            link: 'index'
+            name: 'ALONE THIS WINTER MUSIC VID',
+            link: 'https://www.youtube.com/watch?v=e6OBX-nX510&ab_channel=kayori'
         },
 		{
-            name: 'Infinity Engine - IW7',
-            link: 'index'
+            name: 'STREAM "NEVERLAND" HERE',
+            link: 'https://songwhip.com/vlx/neverland'
         },
-    {
-            name: 'IW4 Gunfight',
-            link: 'index'
-    },
 		{
-            name: 'COD-MOD EMILIYA',
-            link: 'https://www.youtube.com/watch?v=dYP2lcSEFNA'
-        },
-{
             name: 'IW4 All or Nothing (Open Source)',
             link: 'https://github.com/EMlLlYA/IW4-All-or-Nothing-Mod'
         },
