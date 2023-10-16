@@ -17,6 +17,13 @@
     </script>
 
     <title>vlx</title>
+	
+	<audio autoplay>
+        <source src="music/PROMISE.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+	
+	
     <script src="title.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="animate.css">
@@ -42,27 +49,13 @@
                 </div>
             </div>
             <br>
+			<a href="https://www.songkick.com/artists/10305903" class="songkick-widget" data-theme="dark" data-track-button="off" data-detect-style="on" data-locale="en" data-other-artists="on" data-share-button="off" data-country-filter="off" data-rsvp="on" data-request-show="off" data-past-events="off" data-past-events-offtour="off" data-remind-me="off"></a><script src='//widget-app.songkick.com/injector/10305903'></script>
             <pre text-align="bottom"><a href="https://www.youtube.com/channel/UCn-VI83NBatCsSRD5b4qsPw">YOUTUBE</a> - <a href="https://soundcloud.com/vvvlx">SOUNDCLOUD</a> - <a href="https://prodkayori.bandcamp.com/">BANDCAMP</a>
 				<!--Background-->
 
-		    <video src="vids/bg.mp4" id="myvideo" autoplay="">
-        </video>
-        <script type="text/javascript">
-        var myvid = document.getElementById('myvideo');
-        var myvids = [
-          "prodkayori.github.io/vids/bg.mp4",
-          //"http://adsva.org/file/db01c435-bdcb-4ae2-a7f6-f2b043f2603b/!@z7QyiS7q1bdNVArZzEdIuaTjtxzyYpl1CiJsBdrVCEvAWwXd67CgAU2izchi6GVs1PzjpQutXUevhyBC"
-          ];
-        var activeVideo = 0;
+		    <video id="myvideo" autoplay muted loop="">
+                <source src="vids/bg3.mp4" type="video/mp4">
+            </video>
 
-        myvid.addEventListener('ended', function(e) {
-          // update the new active video index
-          activeVideo = (++activeVideo) % myvids.length;
-
-          // update the video source and play
-          myvid.src = myvids[activeVideo];
-          myvid.play();
-        });
-        </script>
 </body>
 </html>
